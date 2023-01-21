@@ -44,11 +44,7 @@ export function Keyboard({
 }: KeyboardProps) {
   return (
     <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(75px, 1fr))",
-        gap: ".5rem",
-      }}
+      className={`${styles.maink}`}
     >
       {KEYS.map(key => {
         const isActive = activeLetters.includes(key)
