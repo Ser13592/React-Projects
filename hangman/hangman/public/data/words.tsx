@@ -1,0 +1,1 @@
+export const words=['test', 'board', 'knife','black', 'misty', 'power','insight','bee','police','save'];
