@@ -1,21 +1,3 @@
-.btn-style{
-
-  border:1px solid black;
-  color:blue;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-}
-
-.btn-style:hover, 
-.btn-style:focus {
-  background-color: aqua;
-
-}
-
-.btn-style.active{
-  background-color: yellow;
-}
-
-.btn-style.inactive{
-  opacity:0.3;
+body{
+  background-color: lightblue;
 }

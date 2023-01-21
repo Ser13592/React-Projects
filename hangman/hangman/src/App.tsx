@@ -43,7 +43,7 @@ function addGuessedLetter(letter:string){
 
   return (
    <div style={{
-    maxWidth: "800px",
+    maxWidth: "600px",
     display: "flex",
     flexDirection: "column",
     // gap: "2rem",
