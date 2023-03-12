@@ -1,0 +1,3 @@
+ports:
+  - port: 4321
+    onOpen: open ${PORT} https://4321-ser13592-reactprojects-ignfm21t2d8.ws-us90.gitpod.io
