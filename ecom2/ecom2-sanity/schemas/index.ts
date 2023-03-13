@@ -1,2 +1,4 @@
 import product from './product';
-export const schemaTypes = [product]
+import people from './people';
+
+export const schemaTypes = [product, people]
