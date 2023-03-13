@@ -11,6 +11,7 @@ interface HomeProps<T> {
 
 
 export default function Home<T>({products}:HomeProps<T>) {
+  console.log(products)
   return (
     <>
       hi
