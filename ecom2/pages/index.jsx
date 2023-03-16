@@ -76,7 +76,7 @@ const Home = ({ products, bannerData }) => {
           <p>Speakers of many variations</p>
         </div>
         <div className='products-container'>
-        {['product1', 'product1'].map((product)=>product)}
+        {products?.map((product) => <Product key={product._id} product={product} />)}
         </div>
         <FooterBanner footerBanner={bannerData && bannerData[0]}/>
       </div>
