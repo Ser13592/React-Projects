@@ -78,7 +78,7 @@ const Home = ({ products, bannerData }) => {
         <div className='products-container'>
         {['product1', 'product1'].map((product)=>product)}
         </div>
-
+        <FooterBanner footerBanner={bannerData && bannerData[0]}/>
       </div>
     </>
 
