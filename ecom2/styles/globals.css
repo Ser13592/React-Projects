@@ -106,7 +106,7 @@ width: 100%;
  cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
- color: #324d67;
+ color: #586732;
 
 }
 .product-card:hover{
@@ -114,7 +114,7 @@ width: 100%;
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+ background-color: #dc8080;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -246,9 +246,10 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
+  left: 8%;
+  top: -15%;
+  width: 250px;
+  align-self: 1/1;
   left: 25%;
 }
 .banner-desc .right{
