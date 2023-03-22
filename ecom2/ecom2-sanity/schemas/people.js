@@ -25,8 +25,61 @@ export default {
       },
       { 
         name: 'email',
-        title: 'email',
+        title: 'Email',
         type: 'string',
+      },
+      {
+        name: 'recipe',
+        type: 'object',
+        fields: [
+          {
+            name: 'title',
+            type: 'string',
+            validation: Rule => Rule.required(),
+          },
+          {
+            name: 'description',
+            type: 'text',
+            validation: Rule => Rule.required(),
+          },
+          {
+            name: 'ingredients',
+            type: 'array',
+            of: [
+              {
+                type: 'object',
+                fields: [
+                  {
+                    name: 'name',
+                    type: 'string',
+                    validation: Rule => Rule.required(),
+                  },
+                  {
+                    name: 'quantity',
+                    type: 'string',
+                    validation: Rule => Rule.required(),
+                  },
+                ],
+              },
+            ],
+            validation: Rule => Rule.required(),
+          },
+          {
+            name: 'instructions',
+            type: 'array',
+            of: [
+              {
+                type: 'string',
+              },
+            ],
+            validation: Rule => Rule.required(),
+          },
+          {
+            name: 'image',
+            type: 'image',
+            validation: Rule => Rule.required(),
+          },
+        ],
       }
     ]
   }
